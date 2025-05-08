@@ -1,1 +1,91 @@
+### ⭐️ Übungsaufgabe: Addiere mit Umwandlung
 
+Schreibe eine Funktion `addiere(a, b)`, die zwei Werte addiert.  
+Falls ein Wert ein String ist (z. B. "2.5"), soll er zuerst in eine Zahl umgewandelt werden.  
+Gib das Ergebnis als Zahl zurück.
+
+🧠 **Tipps**:
+- Verwende `float(...)`, um Strings umzuwandeln  
+- Prüfe den Typ mit `isinstance(...)`
+
+```python
+# Deine Funktion hier ↓
+
+def addiere(a, b):
+    # dein Code hier
+```
+
+---
+
+### 🌡️ Übungsaufgabe: Temperatur umrechnen
+
+Schreibe eine Funktion `celsius_zu_fahrenheit(c)`, die Celsius in Fahrenheit umrechnet.  
+Wenn der Eingabewert kein int oder float ist, soll ein `TypeError` ausgelöst werden.
+
+🧠 **Tipps**:
+- Formel: `(c * 9/5) + 32`  
+- Nutze `raise TypeError(...)`
+
+```python
+# Deine Funktion hier ↓
+
+def celsius_zu_fahrenheit(c):
+    # dein Code hier
+```
+
+---
+
+### 🔢 Übungsaufgabe: Finde gerade Zahlen in Liste
+
+Schreibe eine Funktion `finde_gerade_zahlen(liste)`, die alle geraden Ganzzahlen aus einer Liste extrahiert und als neue Liste zurückgibt.
+
+🧠 **Tipps**:
+- Modulo-Operator: `n % 2 == 0`  
+- Typprüfung: `isinstance(n, int)`
+
+```python
+# Deine Funktion hier ↓
+
+def finde_gerade_zahlen(liste):
+    # dein Code hier
+```
+
+---
+
+### 🏆 Übungsaufgabe: Finde alle Maximalwerte
+
+Schreibe eine Funktion `finde_maximum(werte)`, die **alle Vorkommen** des maximalen Wertes in der Liste zurückgibt.  
+Wenn die Liste leer ist, soll `None` zurückgegeben werden.
+
+🧠 **Tipps**:
+- Verwende `max()` und eine List Comprehension  
+- Prüfe auf leere Listen
+
+```python
+# Deine Funktion hier ↓
+
+def finde_maximum(werte):
+    # dein Code hier
+```
+
+---
+
+### 🚗 Übungsaufgabe: Klasse Auto mit Beschreibung
+
+Erstelle eine Klasse `Auto` mit den Attributen `marke` und `baujahr`.  
+Die Methode `beschreibung()` soll z. B. so aussehen:  
+`"VW – 5 Jahre alt."` (wenn das aktuelle Jahr 2025 ist).
+
+🧠 **Tipps**:
+- Rechne Alter mit: `2025 - baujahr`  
+- Gib String mit f-Strings zurück
+
+```python
+# Deine Klasse hier ↓
+
+class Auto:
+    def __init__(self, marke, baujahr):
+        # dein Code hier
+
+    def beschreibung(self):
+        # dein Code hier
