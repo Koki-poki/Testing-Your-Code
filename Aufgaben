@@ -1,0 +1,12 @@
+#  Aufgabe 1 – Teste eine Funktion in Python
+
+Schreibe eine Python-Funktion, die überprüft, ob eine Zahl gerade ist. Anschließend soll ein einfacher Test geschrieben werden, der die Funktion mit Beispieldaten überprüft.
+
+### ✅ Aufgabe
+
+Implementiere folgende Funktion:
+
+```python
+# Eine Funktion, die prüft, ob eine Zahl gerade ist
+def ist_gerade(zahl):
+    return zahl % 2 == 0
